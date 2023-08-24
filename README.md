@@ -1,8 +1,8 @@
-PhiID -- Integrated Information Decomposition
+$`\Phi`$ID -- Integrated Information Decomposition
 =============================================
 
 This library contains Octave (v5.0.0) and Matlab (>R2016a) functions to compute
-Integrated Information Decomposition (PhiID) in continuous and discrete data
+Integrated Information Decomposition ($`\Phi`$ID) in continuous and discrete data
 using Barrett's Minimum Mutual Info (MMI) redundancy function. This code implements
 the measures used for further analysis in:
 
@@ -25,7 +25,7 @@ Usage
 -----
 
 This library implements PhiID in bipartite systems. 
-To compute PhiID on the time-delayed mutual information (TDMI) of a time 
+To compute $`\Phi`$ID on the time-delayed mutual information (TDMI) of a time 
 series dataframe X with 2 dimensions (channels/regions) and 1000 samples (timepoints)
 (in this example, random timeseries are used for X), run:
 
